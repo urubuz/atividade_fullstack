@@ -1,0 +1,17 @@
+body{
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+}
+li{
+    font-weight: bold;
+}
+div{
+    background-color: #a6daff;
+    width: 100vw;
+    margin: 0;
+}
+footer{
+    font-size: 5px;
+}
