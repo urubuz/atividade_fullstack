@@ -1,17 +1,117 @@
-body{
-    font-family: sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-h1{
-    text-align: center;
+
+.bodyhome{
+    font-family:'Segoe UI';
+    display:flex;
 }
+
+.bodysobremim{
+    font-family:'Segoe UI';
+}
+
+.barra-superior {
+  width: 100%;
+  height: 70px;
+  background-color: #33619c;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  text-align: center;
+}
+
+.titulo {  
+    color:white;
+    margin-top: 18px;   
+    font-size:25px;
+    font-weight: bold;
+    font-family:'Segoe UI';
+}
+.logo{
+    margin-left: 750px;
+}
+
+.logodivs{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.titulodivs{
+    margin-left: 40px;
+    color:white;
+    margin-top: 15px;
+}
+
+.textodivs{
+    color:white;
+    margin-left: 40px;
+}
+
+.seçoes1{
+    background-color: #23446e;
+    height: 350px;
+    width: 700px;
+    margin-top: 100px;
+    margin-left: 205px;
+    border-radius: 15px;
+}
+
+.seçoes2{
+    background-color: #23446e;
+    height: 350px;
+    width: 700px;
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 15px;
+}
+
 li{
     font-weight: bold;
 }
-div{
-    background-color: #a6daff;
-    width: 100vw;
-    margin: 0;
-}
 footer{
     font-size: 5px;
+}
+
+.divjogo {
+  position: relative;
+  width: 1905px;
+  height: 800px;
+  overflow: hidden;
+}
+
+.imgjogo{
+    position: absolute;
+  inset: 0;
+  background: url("imagens/videogame.png") center/cover;
+  filter: blur(10px);
+  transform: scale(1.1);
+}
+
+.divtextojogo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 65px;
+  font-weight: bold;
+}
+
+.titulopag{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.divsobremim{
+    text-align: center;
+}
+.textopag{
+    font-size: 15px;
+    text-align: center;
 }
