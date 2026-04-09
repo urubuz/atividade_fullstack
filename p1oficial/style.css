@@ -1,0 +1,102 @@
+body{
+    font-family: sans-serif;
+}
+
+.header{
+    background-image: url(Imagens/bg-header-desktop.png);
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.titulo{
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+    font-size: 36px;
+}
+.texttitulo{
+    color:hsl(201, 11%, 66%);
+    text-align: center;
+}
+.botoes{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.ios{
+    height: 50px;
+    width: 200px;
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 30px;
+    border-bottom: solid hsla(171, 62%, 28%, 0.644);
+}
+.mac{
+    height: 50px;
+    width: 200px;
+    background-color: hsl(233, 100%, 69%);
+    border-radius: 30px;
+    border-bottom: solid hsl(233, 46%, 38%);
+}
+.textbtn{
+    color: white;
+    text-align: center;
+}
+.titulo2{
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+    font-size: 30px;
+}
+.txtpt2{
+    color:hsl(201, 11%, 66%);
+    text-align: center;
+}
+.divparte2{
+    display: flex;
+    justify-content: space-between;
+}
+.titulo3{
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+}
+.txt3{
+    color:hsl(201, 11%, 66%);
+    text-align: center;
+}
+.dispositivos{
+    display: flex;
+    justify-content: center;
+}
+.parte3{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.div31{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div32{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div33{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer{
+    width: 100vw;
+    height: 100px;
+    background-color: hsl(180, 7%, 94%);
+    display: flex;
+    justify-content: space-around;
+}
+.footertxt1{
+    display: flex;
+}
+.footertxt2{
+    display: flex;
+}
