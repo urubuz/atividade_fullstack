@@ -1,0 +1,12 @@
+function irsobremim() {
+    window.location.href = "2sobremim.html";
+  }
+function ircopia() {
+    window.location.href = "3atividade.html";
+  }
+function irhome() {
+    window.location.href = "1home.html";
+  }
+function ircanvas() {
+    window.location.href = "5atividade.html";
+  }
