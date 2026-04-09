@@ -1,0 +1,18 @@
+body{
+    font-family: sans-serif;
+}
+
+input{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+}
+
+div{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
