@@ -10,3 +10,6 @@ function irhome() {
 function ircanvas() {
     window.location.href = "5atividade.html";
   }
+function iradvinhar() {
+    window.location.href = "4home.html";
+  }
