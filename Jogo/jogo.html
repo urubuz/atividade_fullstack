@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="barra-superior">
+        <br>    
+        <img src="imagens/logo urubu.png" alt="Logo"  width="75px" height="75px" class="logo">
+        <p onclick="irhome()" class="titulo">RAFAELmagalhães_barreto</p>
+    </header>
+    <div id="telaescolha">
+        <div class="personagens" onclick="escolher('guerreiro')">
+            <br>
+            <h1>Guerreiro</h1>
+            <img src="imagens/guerreiro.png" alt="" width="125" height="175">
+            <br>
+            <div class="linha"></div>
+            <div class="status">
+                <img src="imagens/forca.png" alt="" width="60px" height="60px">
+                    <p class="stat">Força:</p>
+                    <p class="statu2">Baixa</p>
+            </div>
+            <div class="status">
+                <img src="imagens/vida.png" alt="" width="60px" height="60px">
+                    <p class="stat">Vida:</p>
+                    <p class="statu1">Alta</p>
+            </div>
+            <br>
+            <div class="linha"></div>
+            <br>
+            <p id="escolherguerreiro">Escolher</p>
+        </div>
+        <div class="personagens" onclick="escolher('mago')">
+            <br>
+            <h1>Mago</h1>
+            <img src="imagens/mago.png" alt="" width="150" height="200">
+            <div class="linha"></div>
+            <div class="status">
+                <img src="imagens/forca.png" alt="" width="60px" height="60px">
+                    <p class="stat">Força:</p>
+                    <p class="statu1">Alta</p>
+            </div>
+            <div class="status">
+                <img src="imagens/vida.png" alt="" width="60px" height="60px">
+                    <p class="stat">Vida:</p>
+                    <p class="statu2">Baixa</p>
+            </div>
+            <br>
+            <div class="linha"></div>
+            <br>
+            <p id="escolhermago">Escolher</p>
+        </div>
+    </div>
+    <div id="telacombate">
+        <div class="vida">
+            <div id="barravidajogador">
+                <p id="vidanumerojogador"></p>
+            </div>
+        </div>
+        <img id="imgjogador">
+        <div class="vidainimigo">
+            <div id="barravidainimigo">
+                <p id="vidanumeroinimigo"></p>
+            </div>
+        </div>
+        <img id="imginimigo" src="imagens/goblin.png" width="500px" height="500px">
+        <div class="acoes">
+            <div id="atacar">
+                <img src="imagens/ataque.png" alt="" width="75px" height="75px">
+                <p onclick="atacar()">Atacar</p>
+            </div>
+            <div class="linhadois"></div>
+            <div id="curar">
+                <img src="imagens/cura.png" alt="" width="75px" height="75px">
+                <p onclick="curar()">Curar</p>
+            </div>
+        </div>
+        <div id="resultado"></div>
+    </div> 
+    <script src="script.js"></script>
+</body>
+</html>
